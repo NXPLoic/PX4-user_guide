@@ -1337,8 +1337,8 @@ Source: [drivers/uwb/uwb_sr150](https://github.com/PX4/PX4-Autopilot/tree/main/s
 
 ### Description
 
-Driver for NXP UWB_SR150 UWB positioning system. This driver publishes a `uwb_distance` message
-whenever the UWB_SR150 has a position measurement available.
+Driver for NXP UWB_SR150 UWB system. This driver publishes a `sensor_uwb` message
+whenever the UWB_SR150 module has a measurement available.
 
 ### Example
 
